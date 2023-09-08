@@ -7,7 +7,12 @@ body {
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
 }
+
 
 .game-container {
     display: flex;
@@ -34,16 +39,19 @@ canvas {
 
 button {
     display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: bold;
     color: white;
     background-image: linear-gradient( 99.9deg, rgba(27,24,31,1) 21.2%, rgba(50,4,89,1) 84.8% );
     border-radius: 8px;
     border-color: white;
     font-family: inherit;
-    margin: 0;
+    margin: 15px;
     padding: 5px 20px;
-    width: 100px;
-    justify-content: center;
+    width: 130px;
+    height: 60px;
+    
 }
 
 button:not(:last-child) {

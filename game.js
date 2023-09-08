@@ -189,7 +189,7 @@ function levelFail(){
 }
 
 function showLives(){
-  const HeartArray = Array(lives).fill(emojis["PLAYER"])
+  const HeartArray = Array(lives).fill(emojis["HEART"])
 
     spanLives.innerHTML = "";
   HeartArray.forEach(heart => spanLives.append(heart))
