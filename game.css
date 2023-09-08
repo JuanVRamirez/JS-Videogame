@@ -61,8 +61,8 @@ button:not(:last-child) {
 .messages {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 auto;
-    width: 80%;
+    margin: 0 auto 40px auto;
+    width: 70%;
     max-width: 460px;
 }
 
