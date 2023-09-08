@@ -62,11 +62,12 @@ p {
     display: block;
     margin: 0;
     width: 100%;
+    font-size: 24px;
 }
 
 @media (max-width: 440px) {
     button {
-        margin-top: 25px;
+        margin-top: 10px;
     }
 
     #up,
