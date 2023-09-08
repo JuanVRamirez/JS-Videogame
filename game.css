@@ -33,13 +33,17 @@ canvas {
 }
 
 button {
-    background-color: #fdef05;
+    display: flex;
+    font-weight: bold;
+    color: white;
+    background-image: linear-gradient( 99.9deg, rgba(27,24,31,1) 21.2%, rgba(50,4,89,1) 84.8% );
     border-radius: 8px;
-    border-color: #ff6600;
+    border-color: white;
     font-family: inherit;
     margin: 0;
     padding: 5px 20px;
     width: 100px;
+    justify-content: center;
 }
 
 button:not(:last-child) {
